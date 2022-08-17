@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #24282B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.azul {
+    color: #1293D4;
+    font-weight: bold;
+}
+
+.textNav {
+    display: flex;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+ul {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    font-size: 15px;
+    width: 50%;
+}
+
+ul li {
+    list-style: none;
+    padding: 3.1%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.border {
+    background: #1293D4;
+    height: 3px;
+}
+
+.containerDescription {
+    background-image: url(https://res.cloudinary.com/anonimous/image/upload/v1660777604/proyecto%20GRAPHEL/cabecera_g30xrb.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.navSubscribe {
+    background: #24282B;
+    padding: 1.5%;
+    margin: 0 0 5% 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navSubscribe input {
+    height: 20px;
+    padding: 2% 0;
+}
+
+.navSubscribe button {
+    background: #E8491D;
+    border-style: none;
+    padding: 4%;
+    margin: 0 2%;
+    color: #fff;
+}
+
+.navSubscribe div {
+    display: flex;
+    align-items: center;
+}
+
+
+.containerOffer {
+    display: flex;
+    columns: 3;
+    justify-content: space-evenly;
+    margin: 0 0 5% 0;
+
+}
+
+.containerOffer div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.containerOffer img {
+    width: 90%;
+    height: auto;
+}
+
+footer {
+    background: #1293D4;
+    padding: 3%;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+
+    .containerOffer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    .containerOffer div {
+        margin: 5% 0;
+        width: 50%;
+        text-align: justify;
+    }
+
+    ul li {
+        list-style: none;
+        padding: 1.5%;
+        flex-wrap: wrap;
+    }
+
+    ul li :hover {
+        border: #1293D4 solid 1px;
+        font-weight: bold;
+        border-radius: 2px;
+        color: #1293D4;
+    }
+
+}

@@ -1,0 +1,35 @@
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-align: left;
+    width: 60%;
+}
+.collectingData {
+    margin: 0 0 2% 0;
+    width: 95%;
+}
+.mail {
+    height: 30vh;
+}
+
+button {
+    background: #E8491D;
+    border-style: none;
+    padding: 1%;
+    margin: 0 2%;
+    color: #fff;
+}
+
+.containerAd img{
+    padding: 7% 0 0 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+}

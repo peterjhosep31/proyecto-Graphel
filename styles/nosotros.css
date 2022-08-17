@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    columns: 2;
+}
+
+.containerInfo {
+    width: 55%;
+    text-transform: none;
+
+}
+
+.containerInfo b {
+    margin: 2%;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.containerInfo div {
+    margin: 10px;
+    width: 94%;
+    padding: 2%;
+}
+
+.containerInfo img {
+    width: 102%;
+}
+
+.containerAd {
+    text-transform: none;
+    width: 35%;
+    padding: 2%;
+}
+
+.containerAd {
+    font-size: 13px;
+}
+
+.fontGray {
+    background: #24282B;
+    color: #fff;
+    padding: 7% 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 97%;
+        columns: 1;
+    }
+
+    .containerInfo {
+        width: 70%;
+    }
+
+    .containerAd {
+        width: 70%;
+    }
+
+    .containerAd {
+        width: 70%;
+        padding: 0;
+    }
+}
