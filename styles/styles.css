@@ -60,7 +60,9 @@ ul li a {
     align-items: center;
     color: #fff;
 }
-
+.containerDescription b{
+    text-transform: capitalize;
+}
 h1 {
     font-weight: bold;
 }
